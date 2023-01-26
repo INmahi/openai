@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGpt- your AI chatbot | Mahi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e7b3c1017.js"></script>
+
+  </head>
+  <body>
+    <div id="app">
+
+      <div style="display: flex; align-items: center; justify-content: center; overflow: hidden; padding-top: 10px;">
+        <div class="profile" style="width: 53px;height: 50px;z-index: 1000;">
+          <img src="assets/bot.svg" alt="ChatBot by Mahi" width="75">
+
+        </div>
+        <p style="font-size: 25px; color: #adb0bb; margin-left: 5px; z-index: 1;"> ChatBot</p>
+      </div>
+      <p style="text-align: center; padding-top: 5px;"><span style="color: #999;">Using Microsoft's OPENAI API and some other amazing tools. </span><a href="#learn_more" style="font-weight: 500; text-decoration: underline; color: rgb(30, 93, 144); margin-bottom: 10px;">Learn More</a></p>
+      
+      <div class="sidebar_container">
+        <div class="sidebar_inner">
+          <div class="menu_item" title="Developer Info" style="color: #10a37f;">
+            <div class="menu_content">
+              <div class="content_text">
+                <p style="font-size: 20px;font-weight: 500;">Ishat Noor Mahi</p>
+                <p style="margin-top: 10px;">this app is developed and owned by Ishat Noor Mahi. I am a front-end React developer. More in <a href="https://www.linkedin.com/in/mahi01/" style="text-decoration: underline; color:#00acee ;">my Linkedin</a></p>
+              </div>
+            </div>
+            <div class="menu_img">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+
+          <div class="menu_item" title="About The App" style="color: #ffc107;">
+            <div class="menu_content">
+              <div class="content_text">
+                <p style="font-size: 20px;font-weight: 500;">About The App</p>
+                <p style="margin-top: 10px;">ChatBot is an pre-trained AI that can understand language models and take action accordingly. It uses Microsoft's OpenAI API. Using OpenAI's text-davinci-003 model, Express, Node and more. </p>
+              </div>
+            </div>
+            <div class="menu_img">
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
+          </div>
+
+          <div class="menu_item" title="Source Code" style="color: #17a2b8;">
+            <div class="menu_content">
+              <div class="content_text">
+                <p style="font-size: 20px;font-weight: 500;">Get Shource Code</p>
+                <p style="margin-top: 10px;">GitHub link will soon be here. Get in touch.</p>
+              </div>
+            </div>
+            <div class="menu_img">
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+
+          <div class="menu_item" title="Help and Support" style="color: #dc3545;">
+            <div class="menu_content">
+              <div class="content_text">
+                <p style="font-size: 20px;font-weight: 500;">Help Or Contact</p>
+                <p style="margin-top: 10px;">Have Anything to report? or want to contact me on building something like this?
+                email: <span style="text-decoration: underline;">ishatnoormahi@gmail.com</span></p>
+              </div>
+            </div>
+            <div class="menu_img">
+              <i class="fa-solid fa-question"></i>
+            </div>
+          </div>
+
+          <div class="menu_item" style="color: #00acee;">
+            <div class="menu_content">
+              <div class="content_text">
+                <p style="font-size: 20px;font-weight: 500;">Find Me Online</p>
+                <p style="margin-top: 10px;">
+                  <a href="https://www.linkedin.com/in/mahi01/" style="text-decoration: none;">
+                    <i class="fa-brands fa-linkedin" style="color:#0072b1; font-size: 25px;margin-right: 10px;"></i>
+                  </a>
+                
+                  <a href="https://www.facebook.com/IN.Mahi" style="text-decoration: none;">
+                    <i class="fa-brands fa-facebook" style="color:#3b5998; font-size: 25px;margin-right: 10px;"></i>
+                  </a>
+                
+                  <a href="https://www.instagram.com/n_ordinary__kid___/" style="text-decoration: none;">
+                    <i class="fa-brands fa-instagram" style="color:#d62976; font-size: 25px;margin-right: 10px;"></i>
+                  </a>
+
+                  <a href="https://twitter.com/ishatnoor" style="text-decoration: none;">
+                    <i class="fa-brands fa-twitter" style="color:#00acee; font-size: 25px;margin-right: 10px;"></i>
+                  </a>
+
+                  
+                </p>
+              </div>
+              <div class="arrow"></div>
+            </div>
+            <div class="menu_img">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile_info">
+        <div class="menu_item" title="About The App" style="color: #ffc107;">
+          <div class="menu_img">
+            <a href="#" style="text-decoration: none;color: unset;">
+              <i class="fa-solid fa-circle-info"></i>
+            </a>
+            
+          </div>
+      </div>
+      </div>
+
+      <div id="chat_container"></div>
+
+      <form>
+        <textarea name="prompt" cols="1" rows="1" placeholder="Test me,  however you want. . ." id="myTextArea"></textarea>
+        <button type="submit">
+          <img src="assets/send.svg" alt="">
+        </button>
+      </form>
+      <p class="mobile_footer"><span style="color: #999;">Read my <a href="">Github Readme</a> for more information</span></p>
+      <p><span style="color: #999;">Copyright &copy; Mahi | 2023</span>
+
+      </p>
+    </div>
+   
+    <script type="module" src="script.js"></script>
+
+    
+  </body>
+</html>
