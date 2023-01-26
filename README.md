@@ -15,12 +15,6 @@
 link of demo
 
 
-## TABLE OF CONTENTS
-
-1.
-2.
-3.
-
 ## Why I Built This?
 
 I built this project for practising OPENAI implementation in full-stack projects. This experience can be used for future projects which includes understanding large language models.
@@ -38,7 +32,7 @@ Well, the process is: first, create the front-end with vanila js. then setting u
 
 **Server:** Node, Express
 
-**API:** OPENAI API
+**API:** OPENAI API, Text-davinvci-003 model
 
 
 <h3 align="left">Languages and Tools:</h3>
