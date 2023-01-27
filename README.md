@@ -12,7 +12,8 @@
 
 ## View App
 
-link of demo
+https://chatbot-openai.netlify.app/
+
 
 
 ## Why I Built This?
